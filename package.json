@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "predeploy": "vite build",
-    "deploy": "ASSET_URL='https://trung-le-1.github.io/bo' gh-pages -d build --dist=dist",
+    "deploy": "gh-pages -d build --dist=dist",
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
