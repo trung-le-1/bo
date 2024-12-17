@@ -12,7 +12,7 @@ body {
 .tu {
     display: flex;
     flex-direction: row;
-    gap: 25px 0;
+    gap: 0 25px;
     flex-wrap: wrap;
     justify-content: center;
 }

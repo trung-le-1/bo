@@ -33,4 +33,5 @@ export const PhatAmDacBiet = Object.create({
     "ng": "ngờ",
     "qu": "quờ",
     "im": "ym",
+    "oc": "óc",
 })
