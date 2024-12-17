@@ -1,0 +1,36 @@
+#root {
+    width: 100%;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+}
+
+.tu {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.chu {
+    display: flex;
+    flex-direction: row;
+    font-size: 100px;
+    cursor: pointer;
+}
+
+.nhieu-mau .phu-am-truoc {
+    color: darkblue;
+}
+
+.nhieu-mau .nguyen-am-chinh {
+    color: indianred;
+}
+
+.nhieu-mau .nguyen-am-phu {
+    color: orange;
+}
+
+.nhieu-mau .phu-am-sau {
+    color: darkgreen;
+}
