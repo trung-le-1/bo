@@ -1,12 +1,11 @@
 {
   "name": "bo",
-  "homepage": "https://trung-le-1.github.io/bo",
   "private": false,
   "version": "0.0.1",
   "type": "module",
   "scripts": {
     "predeploy": "vite build",
-    "deploy": "gh-pages -d build --dist=dist",
+    "deploy": "ASSET_URL='https://trung-le-1.github.io/bo' gh-pages -d build --dist=dist",
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
