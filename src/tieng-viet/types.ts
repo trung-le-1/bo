@@ -49,7 +49,7 @@ export class Chu {
             result.push(this.dau)
             result.push(this.raw)
         }
-        return result.map(i => PhatAmDacBiet[i] ? PhatAmDacBiet[i] : i);
+        return result.map(i => PhatAmDacBiet[i.toLowerCase()] || i) as string[];
     }
 }
 
